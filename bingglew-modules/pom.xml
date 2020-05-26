@@ -12,4 +12,9 @@
     <packaging>pom</packaging>
 
     <description>bingglew 微服务模块</description>
+
+    <modules>
+        <module>bingglew-modules-api</module>
+        <module>bingglew-modules-biz</module>
+    </modules>
 </project>

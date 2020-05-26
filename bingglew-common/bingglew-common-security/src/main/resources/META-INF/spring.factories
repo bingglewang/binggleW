@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.bingglewcloud.bingglew.common.security.component.PermissionService,\
+  com.bingglewcloud.bingglew.common.security.component.BingglewAccessDeniedHandler,\
+  com.bingglewcloud.bingglew.common.security.component.BingglewSecurityInnerAspect,\
+  com.bingglewcloud.bingglew.common.security.component.ResourceAuthExceptionEntryPoint,\
+  com.bingglewcloud.bingglew.common.security.component.BingglewResourceServerTokenRelayAutoConfiguration,\
+  com.bingglewcloud.bingglew.common.security.feign.BingglewFeignClientConfiguration,\
+  com.bingglewcloud.bingglew.common.security.service.BingglewUserDetailsServiceImpl

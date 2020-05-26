@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.bingglewcloud.bingglew.admin.api.feign.fallback.RemoteUserServiceFallbackImpl,\
+  com.bingglewcloud.bingglew.admin.api.feign.fallback.RemoteLogServiceFallbackImpl,\
+  com.bingglewcloud.bingglew.admin.api.feign.fallback.RemoteTokenServiceFallbackImpl,\
+  com.bingglewcloud.bingglew.admin.api.feign.factory.RemoteUserServiceFallbackFactory,\
+  com.bingglewcloud.bingglew.admin.api.feign.factory.RemoteLogServiceFallbackFactory,\
+  com.bingglewcloud.bingglew.admin.api.feign.factory.RemoteTokenServiceFallbackFactory

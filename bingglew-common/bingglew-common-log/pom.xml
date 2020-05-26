@@ -21,7 +21,12 @@
             <artifactId>bingglew-common-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-        <!--UPMS接口模块 TODO-->
+        <!--UPMS接口模块-->
+        <dependency>
+            <groupId>com.bingglewcloud</groupId>
+            <artifactId>bingglew-modules-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!--安全依赖获取上下文信息-->
         <dependency>
             <groupId>org.springframework.security</groupId>

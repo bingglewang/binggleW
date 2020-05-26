@@ -1,0 +1,24 @@
+server:
+  port: 4000
+
+spring:
+  application:
+    name: bingglew-modules
+  # 配置中心
+  cloud:
+    config:
+      fail-fast: true
+      name: ${spring.application.name}
+      profile: ${spring.profiles.active}
+      discovery:
+        enabled: true
+        service-id: bingglew-config
+  profiles:
+    active: dev
+# 注册中心配置
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://bingglew:bingglew@localhost:8761/eureka/

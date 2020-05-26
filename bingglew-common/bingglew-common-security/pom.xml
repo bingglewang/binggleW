@@ -25,7 +25,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-security</artifactId>
         </dependency>
-        <!--UPMS API TODO-->
-
+        <!--UPMS API-->
+        <dependency>
+            <groupId>com.bingglewcloud</groupId>
+            <artifactId>bingglew-modules-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

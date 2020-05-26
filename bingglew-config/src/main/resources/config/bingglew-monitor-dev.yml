@@ -1,0 +1,6 @@
+spring:
+  # 安全配置
+  security:
+    user:
+      name: ENC(bJ+uKlBjb/7HNa8NfimCE6Uf8HPQqsJF)     # bingglew
+      password: ENC(bJ+uKlBjb/7HNa8NfimCE6Uf8HPQqsJF) # bingglew

@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.bingglewcloud.bingglew.common.core.config.JacksonConfig,\
+  com.bingglewcloud.bingglew.common.core.config.RedisConfig,\
+  com.bingglewcloud.bingglew.common.core.config.RestTemplateConfig,\
+  com.bingglewcloud.bingglew.common.core.config.FilterIgnorePropertiesConfig,\
+  com.bingglewcloud.bingglew.common.core.exception.GlobalExceptionHandler,\
+  com.bingglewcloud.bingglew.common.core.util.SpringContextHolder
