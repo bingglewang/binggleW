@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * @date 2019/2/1
  */
 @Configuration
-@MapperScan("com.bingglewcloud.bingglewg.admin.mapper")
+@MapperScan("com.bingglewcloud.bingglew.admin.mapper")
 public class MybatisPlusConfigurer {
 	/**
 	 * 分页插件
