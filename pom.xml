@@ -93,6 +93,7 @@
         <module>bingglew-gateway</module>
         <module>bingglew-eureka</module>
         <module>bingglew-modules</module>
+        <module>bingglew-visual</module>
     </modules>
 
     <dependencyManagement>
