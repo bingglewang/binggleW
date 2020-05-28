@@ -18,7 +18,7 @@
 		<result column="deptId" property="deptId"/>
 		<result column="deptName" property="deptName"/>
 		<collection property="roleList" ofType="com.bingglewcloud.bingglew.admin.api.entity.SysRole"
-					select="com.pig4cloud.pig.admin.mapper.SysRoleMapper.listRolesByUserId" column="user_id">
+					select="com.bingglewcloud.bingglew.admin.mapper.SysRoleMapper.listRolesByUserId" column="user_id">
 		</collection>
 	</resultMap>
 

@@ -1,3 +1,4 @@
+/*
 package com.bingglewcloud.bingglew.gateway.filter;
 
 import cn.hutool.core.util.StrUtil;
@@ -21,10 +22,12 @@ import org.springframework.http.server.reactive.ServerHttpResponse;
 import org.springframework.stereotype.Component;
 import reactor.core.publisher.Mono;
 
+*/
 /**
  * @date 2018/7/4
  * 验证码处理
- */
+ *//*
+
 @Slf4j
 @Component
 @AllArgsConstructor
@@ -76,11 +79,13 @@ public class ValidateCodeGatewayFilter extends AbstractGatewayFilterFactory {
 		};
 	}
 
-	/**
+	*/
+/**
 	 * 检查code
 	 *
 	 * @param request
-	 */
+	 *//*
+
 	@SneakyThrows
 	private void checkCode(ServerHttpRequest request) {
 		String code = request.getQueryParams().getFirst("code");
@@ -119,3 +124,4 @@ public class ValidateCodeGatewayFilter extends AbstractGatewayFilterFactory {
 		redisTemplate.delete(key);
 	}
 }
+*/

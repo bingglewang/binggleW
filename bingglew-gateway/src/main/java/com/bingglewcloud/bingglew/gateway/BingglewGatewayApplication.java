@@ -1,7 +1,6 @@
 package com.bingglewcloud.bingglew.gateway;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
 
 /**
