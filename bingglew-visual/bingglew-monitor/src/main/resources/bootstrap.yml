@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: bingglew-visual
+    name: bingglew-monitor
   cloud:
     nacos:
       discovery:
