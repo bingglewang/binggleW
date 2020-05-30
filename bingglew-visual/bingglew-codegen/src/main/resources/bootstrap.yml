@@ -4,25 +4,16 @@ server:
 spring:
   application:
     name: bingglew-codegen
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 129.204.62.17:8848
+      config:
+        server-addr: ${spring.cloud.nacos.discovery.server-addr}
+        file-extension: yml
+        shared-dataids: application-dev.yml
   profiles:
     active: dev
-  #配置中心
-  cloud:
-    config:
-      fail-fast: true
-      name: ${spring.application.name}
-      profile: ${spring.profiles.active}
-      discovery:
-        enabled: true
-        service-id: bingglew-config
-
-# 注册中心配置
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://bingglew:bingglew@localhost:8761/eureka/
 logging:
   level:
     root: info

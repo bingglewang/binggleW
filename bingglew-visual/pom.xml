@@ -15,6 +15,5 @@
     <modules>
         <module>bingglew-codegen</module>
         <module>bingglew-monitor</module>
-        <module>bingglew-zipkin</module>
     </modules>
 </project>

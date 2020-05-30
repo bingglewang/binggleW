@@ -1,7 +1,5 @@
 package com.bingglewcloud.bingglew.admin.config;
 
-import com.baomidou.mybatisplus.core.injector.ISqlInjector;
-import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import com.bingglewcloud.bingglew.common.core.datascope.DataScopeInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
@@ -32,15 +30,5 @@ public class MybatisPlusConfigurer {
 	@Bean
 	public DataScopeInterceptor dataScopeInterceptor() {
 		return new DataScopeInterceptor();
-	}
-
-	/**
-	 * 逻辑删除
-	 *
-	 * @return
-	 */
-	@Bean
-	public ISqlInjector sqlInjector() {
-		return new LogicSqlInjector();
 	}
 }
